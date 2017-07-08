@@ -2,17 +2,17 @@
 # ROS buildfarm index file
 ---
 distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
-    release_builds:
-#      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
+#   indigo:
+#     doc_builds:
+#       default: indigo/doc-build.yaml
+#       released-packages-without-doc-job: indigo/doc-released-build.yaml
+#     notification_emails:
+#     - ros-buildfarm-testfarm@googlegroups.com
+#     release_builds:
+# #      arm: indigo/release-armhf-build.yaml
+#       default: indigo/release-build.yaml
+#     source_builds:
+#       default: indigo/source-build.yaml
 #  jade:
 #    doc_builds:
 #      default: jade/doc-build.yaml
@@ -29,7 +29,7 @@ distributions:
       default: kinetic/doc-build.yaml
       released-packages-without-doc-job: kinetic/doc-released-build.yaml
     notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
+    - libo@trunk.tech
     release_builds:
       arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
@@ -37,12 +37,12 @@ distributions:
       default: kinetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.183.26.131:8080
+jenkins_url: http://localhost:8080
 notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
   debian_repositories:
-  - http://54.183.65.232/ubuntu/building
+  - http://localhost/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -78,8 +78,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://54.183.65.232/ubuntu/building
-  - http://54.183.65.232/ubuntu/testing
-  - http://54.183.65.232/ubuntu/main
+  - http://localhost/ubuntu/building
+  - http://localhost/ubuntu/testing
+  - http://localhost/ubuntu/main
 type: buildfarm
 version: 1
