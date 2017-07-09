@@ -42,7 +42,7 @@ notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
   debian_repositories:
-  - http://165.227.5.32/ubuntu/building
+  - http://165.227.5.33/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
