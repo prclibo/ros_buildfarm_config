@@ -39,7 +39,7 @@ doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://165.227.5.32:8080
 notification_emails:
-- ros-buildfarm-testfarm@googlegroups.com
+- libo@trunk.tech
 prerequisites:
   debian_repositories:
   - http://165.227.5.33/ubuntu/building

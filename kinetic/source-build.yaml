@@ -7,11 +7,11 @@ jenkins_pull_request_job_priority: 59
 notifications:
   committers: false
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - libo@trunk.tech
   maintainers: false
 repositories:
   urls:
-  - http://54.183.65.232/ubuntu/testing
+  - http://165.227.5.33/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----

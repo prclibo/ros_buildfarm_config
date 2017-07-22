@@ -8,7 +8,7 @@ jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - libo@trunk.tech
   maintainers: false
 sync:
   package_count: 1
@@ -46,8 +46,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://54.183.65.232/ubuntu/building
-target_repository: http://54.183.65.232/ubuntu/building
+  - http://165.227.5.33/ubuntu/building
+target_repository: http://165.227.5.33/ubuntu/building
 targets:
   ubuntu:
     # wily:
