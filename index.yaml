@@ -75,7 +75,7 @@ prerequisites:
     xaePFwP+okKW1h9qvwFhNF0JSCtdJrexdCf8jGE7
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/prclibo/rosdistro/master/index.yaml
 status_page_repositories:
   default:
   - http://165.227.5.33/ubuntu/building
