@@ -31,7 +31,6 @@ distributions:
     notification_emails:
     - libo@trunk.tech
     release_builds:
-      arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
