@@ -48,7 +48,7 @@ targets:
   ubuntu:
     xenial:
       amd64:
-  _configs:
+  _config:
     custom_rosdep_urls:
       - https://raw.githubusercontent.com/prclibo/rosdistro/master/rosdep/sources.list.d/20-default.list
 test_commits:
