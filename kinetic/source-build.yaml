@@ -48,6 +48,9 @@ targets:
   ubuntu:
     xenial:
       amd64:
+  _configs:
+    custom_rosdep_urls:
+      - https://raw.githubusercontent.com/prclibo/rosdistro/master/rosdep/sources.list.d/20-default.list
 test_commits:
   default: true
 # do not run pr builds on the test farm (otherwise we'll get multiple reports)
