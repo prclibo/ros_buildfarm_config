@@ -24,24 +24,34 @@ distributions:
 #      default: jade/release-build.yaml
 #    source_builds:
 #      default: jade/source-build.yaml
+#   kinetic:
+#     doc_builds:
+#       default: kinetic/doc-build.yaml
+#       released-packages-without-doc-job: kinetic/doc-released-build.yaml
+#     notification_emails:
+#     - libo@trunk.tech
+#     release_builds:
+#       default: kinetic/release-build.yaml
+#     source_builds:
+#       default: kinetic/source-build.yaml
   kinetic:
     doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
+      default: trunk-kinetic/doc-build.yaml
+      released-packages-without-doc-job: trunk-kinetic/doc-released-build.yaml
     notification_emails:
     - libo@trunk.tech
     release_builds:
-      default: kinetic/release-build.yaml
+      default: trunk-kinetic/release-build.yaml
     source_builds:
-      default: kinetic/source-build.yaml
+      default: trunk-kinetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://165.227.5.32:8080
+jenkins_url: http://192.241.223.231:8080
 notification_emails:
 - libo@trunk.tech
 prerequisites:
   debian_repositories:
-  - http://165.227.5.33/ubuntu/building
+  - http://162.243.151.49/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -77,8 +87,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/prclibo/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://165.227.5.33/ubuntu/building
-  - http://165.227.5.33/ubuntu/testing
-  - http://165.227.5.33/ubuntu/main
+  - http://162.243.151.49/ubuntu/building
+  - http://162.243.151.49/ubuntu/testing
+  - http://162.243.151.49/ubuntu/main
 type: buildfarm
 version: 1
