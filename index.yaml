@@ -34,7 +34,7 @@ distributions:
 #       default: kinetic/release-build.yaml
 #     source_builds:
 #       default: kinetic/source-build.yaml
-  kinetic:
+  trunk-kinetic:
     doc_builds:
       default: trunk-kinetic/doc-build.yaml
       released-packages-without-doc-job: trunk-kinetic/doc-released-build.yaml
