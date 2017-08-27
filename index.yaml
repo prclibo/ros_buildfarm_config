@@ -47,6 +47,9 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://192.241.223.231:8080
+    
+git_ssh_credential_id: 11111111-1111-1111-1111-111111111111
+
 notification_emails:
 - libo@trunk.tech
 prerequisites:
